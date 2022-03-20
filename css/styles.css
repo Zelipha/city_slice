@@ -21,23 +21,35 @@ header {
 
 header .logo {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: -250px;
+  color: #187181;
 }
-header ul {
+
+header .logo:hover {
+  color: deeppink;
+}
+
+.nav {
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav ul {
   list-style: none;
-  margin-right: 30px;
+  margin-right: -250px;
 }
 
 header li {
-  padding: 20px;
-  margin: 20px;
+  display: inline-block;
+  padding: 30px 30px;
 }
 
 header li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 800;
   color: rgb(14, 187, 80);
