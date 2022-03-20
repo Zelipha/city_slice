@@ -16,8 +16,9 @@
     <script src="https://kit.fontawesome.com/69651d44d1.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <section class="header">
+    <section id="Home" class="header">
       <header>
+        <!-- <a class="logo" href="#Home">City SLice</a> -->
         <ul>
           <li><a href="#Menu">Menu</a></li>
           <li><a href="#Order">Order</a></li>
@@ -63,7 +64,41 @@
         </div>
       </section>
 
-      <section id="Order"></section>
+      <section id="Order">
+        <h3>PLACE YOUR ORDER</h3>
+        <div class="order">
+          <p>What will you have today?</p>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Deluxe</option>
+            <option value="1">All Meat</option>
+            <option value="2">Veggie</option>
+            <option value="3">Egg-ceptional</option>
+            <option value="4">BBQ chicken</option>
+            <option value="5">Creamy garlic garden</option>
+          </select>
+          <p>Select your preferred size:</p>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Medium</option>
+            <option value="1">Large</option>
+            <option value="2">Small</option>
+          </select>
+          <p>How do you love your CRUST</p>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Crispy</option>
+            <option value="1">Stuffed</option>
+            <option value="2">Gluten free</option>
+            <option value="3">Three</option>
+          </select>
+          <p>Explore our Toppings</p>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Black Olives</option>
+            <option value="1">Pepperoni</option>
+            <option value="2">Mushrooms</option>
+            <option value="3">Pineapple</option>
+            <option value="4">Extra Cheese</option>
+          </select>
+        </div>
+      </section>
 
       <section id="Contact">
         <div class="reachUs">
@@ -75,12 +110,13 @@
             <input class="email" type="email" name="email" placeholder="Email..." required /> <br />
             <br />
             <label for="textarea"></label>
-            <textarea name="text" id="" cols="70" rows="10" placeholder="Your message here..."></textarea><br />
+            <textarea name="text" id="" cols="50" rows="5" placeholder="Your message here..."></textarea><br />
             <input class="submit" type="submit" value="Submit" />
           </form>
           <div class="rating-css">
             <div class="star-icon">
               <p>Rate our services</p>
+              <br />
               <input type="radio" name="rating1" id="rating1" />
               <label for="rating1" class="fa fa-star"></label>
               <input type="radio" name="rating1" id="rating2" />
@@ -93,6 +129,13 @@
               <label for="rating5" class="fa fa-star"></label>
             </div>
           </div>
+          <p>We are located at: Zeliq lane, Sigma building</p>
+          <p>Nakuru-21000</p>
+          <p>
+            CALL: +254-580-989-8644 <br />
+            or <br />
+            EMAIL: cityslice@yahoo.com
+          </p>
         </div>
       </section>
 
