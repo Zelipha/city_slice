@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Slice</title>
+    <link rel="icon" href="images/icon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/69651d44d1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="header">
+      <header>
+        <ul>
+          <li><a href="#Menu">Menu</a></li>
+          <li><a href="#Order">Order</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </header>
+      <div class="welcome">
+        <h6><i>City Slice</i></h6>
+        <h5>WORLD OF UNPARALLELED FLAVOURS</h5>
+        <h1>PIZZA</h1>
+        <a class="order" href="#Menu">ORDER NOW</a>
+      </div>
+    </section>
+
+    <main>
+      <section id="Menu">
+        <h2>MENU</h2>
+        <div class="wrapper">
+          <div class="works">
+            <img src="/images/all_meat.png" alt="" />
+            <p>ALL MEAT</p>
+          </div>
+          <div class="works">
+            <img src="/images/veggie.png" alt="" />
+            <p>VEGGIE</p>
+          </div>
+          <div class="works">
+            <img src="/images/deluxe.png" alt="" />
+            <p>DELUXE</p>
+          </div>
+          <div class="works">
+            <img src="/images/creamy-garlic.png" alt="" />
+            <p>CREAMY GARLIC GARDEN</p>
+          </div>
+          <div class="works">
+            <img src="/images/egg-ceptional.png" alt="" />
+            <p>EGG-CEPTIONAL</p>
+          </div>
+          <div class="works">
+            <img src="/images/bbq.png" alt="" />
+            <p>BBQ CHICKEN</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Order"></section>
+
+      <section id="Contact">
+        <div class="reachUs">
+          <h2>WE VALUE YOUR FEEDBACK</h2>
+          <form action="https://formspree.io/f/mzbovbqb" method="post">
+            <label for="name"></label>
+            <input class="name" type="text" name="name" placeholder="Name..." required />
+            <label for="email"></label>
+            <input class="email" type="email" name="email" placeholder="Email..." required /> <br />
+            <br />
+            <label for="textarea"></label>
+            <textarea name="text" id="" cols="70" rows="10" placeholder="Your message here..."></textarea><br />
+            <input class="submit" type="submit" value="Submit" />
+          </form>
+          <div class="rating-css">
+            <div class="star-icon">
+              <p>Rate our services</p>
+              <input type="radio" name="rating1" id="rating1" />
+              <label for="rating1" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating2" />
+              <label for="rating2" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating3" />
+              <label for="rating3" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating4" />
+              <label for="rating4" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating5" />
+              <label for="rating5" class="fa fa-star"></label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; 2022 by Zelipha</p>
+      </footer>
+    </main>
+  </body>
+</html>
