@@ -19,6 +19,10 @@ header {
   width: 100%;
 }
 
+header .logo {
+  text-decoration: none;
+  font-size: 30px;
+}
 header ul {
   display: flex;
   justify-content: right;
@@ -27,8 +31,8 @@ header ul {
 }
 
 header li {
-  margin: 20px;
   padding: 20px;
+  margin: 20px;
 }
 
 header li a {
@@ -104,12 +108,32 @@ section.header .welcome a:hover {
   padding: 0 70px 20px 0;
 }
 
+#Order {
+  background: #838383;
+  text-align: center;
+  padding: 50px;
+  height: 100vh;
+  margin-bottom: -40px;
+}
+
+#Order select {
+  width: 50%;
+  margin-left: 300px;
+}
+
+#Order h3 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
 #Contact {
   background: url("../images/contact_bg.jpeg");
   background-size: cover;
   height: 100vh;
   opacity: 0.8;
   text-align: center;
+  top: 0;
 }
 
 #Contact h2 {
@@ -124,7 +148,7 @@ input,
 textarea {
   color: white;
   background: transparent;
-  border: 1px solid white;
+  border: 1px solid rgb(7, 7, 7);
   margin: 5px;
   outline: none;
 }
@@ -144,7 +168,7 @@ form ::placeholder {
 }
 
 .rating-css div p {
-  color: rgb(9, 20, 4);
+  color: rgb(86, 223, 22);
 }
 
 .rating-css input {
@@ -166,8 +190,14 @@ form ::placeholder {
   transition: 0.3s ease;
 }
 
+.reachUs p {
+  color: rgb(7, 7, 7);
+  font-weight: 1000;
+  margin: 0;
+}
+
 footer {
-  background-color: #b0bae4;
+  background-image: linear-gradient(to right top, #040404, #231822, #47222f, #69312c, #7d4a1e, #7c5016, #79560b, #755c00, #714800, #6b3300, #611e01, #550602);
   height: 80px;
   width: 100%;
   bottom: 0;
