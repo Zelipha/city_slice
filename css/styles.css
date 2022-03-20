@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background: url("../images/welcome_bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 30px;
+}
+
+header li {
+  margin: 20px;
+  padding: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(14, 187, 80);
+}
+
+header li a:hover {
+  color: rgb(194, 78, 36);
+}
+
+section.header .welcome {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+  line-height: 2;
+}
+
+section.header .welcome h6,
+section.header .welcome h5,
+section.header .welcome h1 {
+  margin-bottom: 30px;
+  font-family: Audio-wide;
+}
+
+section.header .welcome h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+section.header .welcome a {
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  background: rgb(96, 159, 172);
+  color: rgb(201, 35, 35);
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+section.header .welcome a:hover {
+  background: rgb(222, 245, 22);
+  color: black;
+}
+
+#Menu {
+  text-align: center;
+  margin: 5%;
+}
+
+#Menu h2 {
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.works img {
+  text-align: center;
+  height: 270px;
+  width: 100%;
+  padding: 0 70px 20px 0;
+}
+
+#Contact {
+  background: url("../images/contact_bg.jpeg");
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
+  text-align: center;
+}
+
+#Contact h2 {
+  margin: 40px 0;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  padding: 50px 0 5px 0;
+}
+
+input,
+textarea {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  margin: 5px;
+  outline: none;
+}
+
+form ::placeholder {
+  color: rgb(1, 13, 24);
+}
+
+#Contact .rating-css div {
+  color: #020724;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.rating-css div p {
+  color: rgb(9, 20, 4);
+}
+
+.rating-css input {
+  display: none;
+}
+
+.rating-css input + label {
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor: pointer;
+}
+
+.rating-css input:checked + label ~ label {
+  color: #838383;
+}
+
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+footer {
+  background-color: #b0bae4;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 900;
+}
