@@ -123,19 +123,19 @@ section.header .welcome a:hover {
 #Order {
   background: #838383;
   text-align: center;
-  padding: 50px;
-  height: 100vh;
+  padding: 20px;
+  height: 130vh;
   margin-bottom: -40px;
 }
 
 #Order select {
-  width: 50%;
-  margin-left: 300px;
+  width: 30%;
+  margin-left: 35%;
 }
 
 #Order h3 {
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
 }
 
