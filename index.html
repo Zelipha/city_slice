@@ -68,35 +68,82 @@
         <h3>PLACE YOUR ORDER</h3>
         <div class="order">
           <p>What will you have today?</p>
-          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Deluxe</option>
-            <option value="1">All Meat</option>
-            <option value="2">Veggie</option>
-            <option value="3">Egg-ceptional</option>
-            <option value="4">BBQ chicken</option>
-            <option value="5">Creamy garlic garden</option>
+          <select class="form-select form-select-sm mb-3 flavor aria-label=".form-select-lg example">
+            <option value="Deluxe">Deluxe</option>
+            <option value="All Meat">All Meat</option>
+            <option value="Veggie">Veggie</option>
+            <option value="Egg-ceptional">Egg-ceptional</option>
+            <option value="BBQ chicken">BBQ chicken</option>
+            <option value="Creamy garlic garden">Creamy garlic garden</option>
           </select>
           <p>Select your preferred size:</p>
-          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Medium</option>
-            <option value="1">Large</option>
-            <option value="2">Small</option>
+          <select class="form-select form-select-sm mb-3 size" aria-label=".form-select-lg example">
+            <option value="900">Medium</option>
+            <option value="1200">Large</option>
+            <option value="650">Small</option>
           </select>
           <p>How do you love your CRUST</p>
-          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Crispy</option>
-            <option value="1">Stuffed</option>
-            <option value="2">Gluten free</option>
-            <option value="3">Flat Bread</option>
+          <select class="form-select form-select-sm mb-3 crust" aria-label=".form-select-lg example">
+            <option value="200">Crispy</option>
+            <option value="500">Stuffed</option>
+            <option value="150">Gluten free</option>
+            <option value="350">Flat Bread</option>
           </select>
           <p>Explore our Toppings</p>
-          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Black Olives</option>
-            <option value="1">Pepperoni</option>
-            <option value="2">Mushrooms</option>
-            <option value="3">Pineapple</option>
-            <option value="4">Extra Cheese</option>
+          <select class="form-select form-select-sm mb-3 toppings" aria-label=".form-select-lg example">
+            <option value="100">Black Olives</option>
+            <option value="100">Pepperoni</option>
+            <option value="50">Mushrooms</option>
+            <option value="50">Pineapple</option>
+            <option value="100">Extra Cheese</option>
           </select>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-info order" type="submit">Order</button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Order No.</th>
+              <th scope="col">Flavour</th>
+              <th scope="col">Pizza Size</th>
+              <th scope="col">Toppings</th>
+              <th scope="col">Crust</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody id="pizza">
+            <tr>
+              <th scope="row">1</th>
+              <td id="flavor"></td>
+              <td id="size"></td>
+              <td id="toppings"></td>
+              <td id="crust"></td>
+              <td id="total"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="additional-buttons">
+          <div class="text-center">
+            <button class="btn btn-info add-pizza" type="submit">Add Another</button>
+            <br>
+            <div class="additional-info">
+              <h3>The total is: <span></span></h3>
+              <h6>Would you like home delivery for an additional <em>250</em>?</h6>
+              <h5>Your order has been received! We are dispatching our rider to <span></span></h5>
+              <div class="location text-center">
+                <input type="text" size="30" placeholder="Where do you live?" required />
+                <button class="btn btn-info complete" type="submit">Complete</button>
+              </div>
+            </div>
+            <br />
+            <button class="btn btn-info yes" type="submit">Yes</button>
+            <button class="btn btn-info no" type="submit">No</button>
+          </div>
+          <div class="text-right">
+            <button class="btn btn-info check-out" type="submit">Checkout</button>
+          </div>
         </div>
       </section>
 
